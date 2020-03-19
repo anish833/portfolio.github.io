@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<title>MY PORTFOLIO</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="first.css">
+<link rel="stylesheet" href="sec2.txt">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="third.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="-sidebar -bar-block -small -hide-small -center">
+  <!-- Avatar image in top left corner -->
+  <img src="logo2.png" style="width:100%">
+  <a href="#" class="-bar-item -button -padding-large -black">
+    <i class="fa fa-home -xxlarge"></i>
+    <p>HOME</p>
+  </a>
+   <a href="#about" class="-bar-item -button -padding-large -hover-black"> 
+    <i class="fa fa-user -xxlarge"></i> 
+    <p>ABOUT</p>
+  </a>
+  <a href="#mywork" class="-bar-item -button -padding-large -hover-black" >
+    <i class="fa fa-eye -xxlarge"></i>
+    <p>MY WORK</p>
+  </a>
+  <a href="#contact" class="-bar-item -button -padding-large -hover-black">
+    <i class="fa fa-envelope -xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="-top -hide-large -hide-medium" id="myNavbar">
+  <div class="-bar -black -opacity -hover-opacity-off -center -small">
+    <a href="#" class="-bar-item -button" style="width:25% !important">HOME</a>
+    <a href="#about" class="-bar-item -button" style="width:25% !important">ABOUT</a>
+    <a href="#mywork" class="-bar-item -button" style="width:25% !important">MY WORK</a>
+    <a href="#contact" class="-bar-item -button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="-container -padding-32 -center -black" id="home">
+    <h1 class="-jumbo"><span class="-hide-small">I'm</span> <strong>Anish</strong></h1>
+    <p>Cyber Security Expert</p>
+    <img src="pic6.jpg" alt="boy" class="-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="-content -justify -text-grey -padding-64" id="about">
+    <h2 class="-text-light-grey ">MY NAME</h2>
+    <hr style="width:200px" class="-opacity"> 
+    <p>I am Anish Bhowmick pursuing BTech from Jain University-School of Engineering and Technology. I am studing CLOUD TECHNOLOGY and INFORMATION SECURITY as a specialized course of COMPUTER SCIENCE. I have knowledge of FRONT END of a webpage and also some programming skills. I know languages such as C,C++,JAVA,SQL etc.
+    </p>
+    <h3 class="-padding-16 -text-light-grey"><strong>My Skills</strong></h3>
+    <p class="-wide">PROGRAMMING</p>
+    <div class="-white">
+      <div class="-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="-wide">PENETRATION TESTING</p>
+    <div class="-white">
+      <div class="-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="-wide">FRONT END WEB DESIGNING</p>
+    <div class="-white">
+      <div class="-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+    
+    
+    
+    <!-- Grid for pricing tables -->
+    <div class="-padding-16 -content -text-grey" id="mywork">
+    <h3 class="-padding-16 -text-light-grey" >My Work</h3>
+    <div class="-row-padding" style="margin:0 -16px">
+      <div class="-half -margin-bottom">
+        <ul class="-ul -white -center -opacity -hover-opacity-off">
+          <li class="-dark-grey -xlarge -padding-32">PROJECTS</li>
+          <li class="-padding-16">OWN PORTFOLIO WEBSITE</li>
+          <li class="-padding-16">JAVA PROJECT ON LIBRARY MANAGEMENT SYSTEM</li>
+          <li class="-padding-16">DEVELOPING AN WEBSITE FOR COLLEGE</li>
+          <li class="-padding-16">STOPWATCH SOFTWARE IN JAVASCRIPT</li></ul>
+
+         
+      </div>
+
+      <div class="-half">
+        <ul class="-ul -white -center -opacity -hover-opacity-off">
+          <li class="-dark-grey -xlarge -padding-32">CERTIFICATION AND LANGUAGES</li>
+          <li class="-padding-16">CERTIFIED SECURITY ENGINEER BY VERZEO</li>
+          <li class="-padding-16">WEB LANGUAGES: HTML, CSS, JAVASCRIPT, SQL</li>
+          <li class="-padding-16">PROGRAMMING LANGUAGES : C, C++, JAVA, JAVASCRIPT</li>
+          <li class="-padding-16">EXPERIENCED WITH LINUX OS and SHELL SCRIPTING</li></ul>
+         
+            
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+  </div>
+  
+
+  <!-- Contact Section -->
+  <div class="-padding-16 -content -text-grey" id="contact">
+    <h2 class="-text-light-grey">Contact Me</h2>
+    <hr style=" width:200px" class="-opacity">
+
+    <div class="-section">
+      <p><i class="fa fa-map-marker fa-fw -text-white -xxlarge -margin-right"></i> Bangalore, INDIA</p>
+      <p><i class="fa fa-envelope fa-fw -text-white -xxlarge -margin-right"> </i> <a href="mailto:anishbhowmick833@gmail.com">Email: anishbhowmick833@gmail.com</a></p>
+    </div><br>
+   
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+    <footer style="text-align: center;" class="-content -padding-64 -text-grey -xlarge">
+    <a href="https://www.instagram.com/anishbhowmick"><i class="fa fa-instagram -hover-opacity"></i></a>
+    <i class="fa fa-github -hover-opacity"></i>
+    <a href="https://twitter.com/ANISH09841775"><i class="fa fa-twitter -hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/anish-bhowmick-5691401a3"><i class="fa fa-linkedin -hover-opacity"></i></a>
+    
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
